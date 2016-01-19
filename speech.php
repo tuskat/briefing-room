@@ -1,9 +1,7 @@
 <?php
     //open connection to mysql db
     
-    //Online
-   // $connection = mysqli_connect("localhost","cedrefji_speech","tMoS=VAK;-aq","cedrefji_peptalk") or die("Error " . mysqli_error($connection));
-
+ 
     // Local   
     $connection = mysqli_connect("localhost","speech","PAzDrEvK5xaGNvhb","peptalk") or die("Error " . mysqli_error($connection));
 
