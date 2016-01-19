@@ -1,0 +1,29 @@
+BunnyLord Meeting Room speech :
+
+- One presentator : 
+    mouth moving animation sync to the word by word application (just update at the same time)
+    words timeout randomly chose? or depending on lenght?
+    one animation to switch the diapositive on the diaporama
+    
+- Diaporama :
+    Each time we end up a whole textblock, we change randomly picked diapositives
+    diapositive must be accorded to the randomly chose text, else it's not funny
+    
+- Element of Surprise (Later) :
+    The element of surprise is just a randomly placed npc that do nothing particular,
+    and that the presentator might mention during his speech. preferably at the beginning.
+    
+- Speech :
+    The most important and awesome part. The words that come off the mouth of the presentator
+    are made to sell me, Cedric Marcellin, to whoever is checking this dumbass website.
+    Blocks of text are randomly selecting in separates piles that are accorded one to another.
+    Else the text wouldn't make any sense at all. so everytime we f5, the speech will be slightly
+    to awesomely different.
+    
+- Data :
+    The data in this project shoudl be stocked, in an easily manageable database. I recommend picking MySql
+    but maybe something awesomer exist...who know. The purpose is to easily manage them so we don't have to implement
+    more code to add speech patterns, it allows us to update it whenever, and it is way better to have Sql database
+    if we want, a lot, like a lot, very very much a lot of, awesome variations.
+    
+    

@@ -1,0 +1,88 @@
+@font-face {
+    font-family: munro;
+    src: url(font/munro.ttf);
+}
+
+
+
+body {
+    text-transform: uppercase;
+    background: rgba(0, 3, 10, 1);    
+    color: rgba(255, 255, 255, 0.95);
+    font-family: munro;
+}
+
+#scene {
+   
+  display: block;
+  
+    top: 0;
+    height: 300px;
+    width: 100%;
+    margin-bottom : 1em;
+}
+
+#stand {
+    position: absolute;
+    border-left: 194px;
+    border-top: 252px;
+    height: 47px;
+    width: 88px;
+    bottom: 0;  
+    left: 180px;
+    z-index: 2;
+    background-image: url("images/Stand.png");
+}
+
+
+#character {
+    position: absolute;
+    border-left: 194px;
+    border-top: 252px;
+    background-image: url("images/presentator/idle.gif");
+    height : 63px;
+    width: 23px;
+    bottom: 11px;
+    left: 180px;
+    z-index: 1;
+}
+
+
+#diaporama {
+    position: absolute;
+    background: rgba(130, 200, 200, 0.95);
+
+    z-index: 1;
+    top: 25px;
+    left: 296px;
+      
+    width: 388px;
+    height: 209px;  
+   /* Top 25
+   left 295
+   right 683
+   bottom 234
+   
+   width 388
+   height 209
+    */
+}
+
+
+
+#background {
+     position: relative;
+    margin-left : 20%;
+    height: 297px;
+    width: 794px;
+    z-index: -1;
+    background-image: url("images/Background.png");
+}
+
+
+#dialogBox {
+   
+    width : 75%;
+    margin-left: 20%;
+    height : 100px;
+}
