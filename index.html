@@ -9,10 +9,7 @@
     <link rel="stylesheet" href="css/custom.css" />
     <link href="css/animate.min.css" rel="stylesheet">
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.lettering.js"></script>
-    <script src="js/jquery.textillate.js"></script>
-    <script src="js/app.js"></script>
+
 
 
 </head>
@@ -35,17 +32,26 @@
     <div id="dialogBox">
         <div class="demo" id="dialogText">
             <p class="tlt">
-                <ul class="text" id="l1"></ul>
-                <ul class="text" id="l2"></ul>
-                <ul class="text" id="l3"></ul>
-                <ul class="text" id="l4"></ul>
-
+                <ul class="texts" id="txt1">
+                    <li id="l1"></li>
+                    <li id="l3"></li>
+                </ul>
+                <ul class="texts" id="txt2">
+                     <li id="l2"></li>
+                     <li id="l4"></li>
+                </ul>
             </p>
+         
+         
         </div>
-
+      <!--  <a onclick="resetSpeech();">reset</a> -->
+        <a class="next" href="#">next</a> 
     </div>
     </div>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

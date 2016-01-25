@@ -12,6 +12,9 @@ body {
     font-family: munro;
 }
 
+li {
+    list-style:none;
+}
 #scene {
    
   display: block;
@@ -81,8 +84,14 @@ body {
 
 
 #dialogBox {
-   
-    width : 75%;
-    margin-left: 20%;
-    height : 100px;
+    position: relative;
+    width : 60%;
+    margin-left: 18%;
+    height : auto;
+}
+
+.next {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
