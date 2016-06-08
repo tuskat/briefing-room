@@ -11,13 +11,9 @@ I love "Not A Hero".
 
 ## TO-DO
 
-Estimated progression : 10%
+Estimated progression : 1%
 
-- Implement longer dialogue
-- Implement animations
-- Invite guests
-- Fix the lights
-- ???
+- To redo in Node.js
 
 ## Useful Links
 
